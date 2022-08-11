@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="https://github.com/gaxrai">
-        <img src="https://komarev.com/ghpvc/?username=gaxrai"> •
-    </a>
+        <img src="https://komarev.com/ghpvc/?username=gaxrai">
+    </a> •
     <a href="http://ganeshrai.com/" target="_blank">My portfolio!</a>
 </p>
