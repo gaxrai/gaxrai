@@ -1,4 +1,4 @@
-### Hi there 👋
+<h2 align="centre"> Namaste, fellow human! 🙏 </h2>
 
 ![](https://komarev.com/ghpvc/?username=gaxrai)
 
