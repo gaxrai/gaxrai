@@ -1,6 +1,9 @@
 <h2 align="centre"> Namaste, fellow human! 🙏 </h2>
 
-![](https://komarev.com/ghpvc/?username=gaxrai)
+<p align="centre">
+    ![](https://komarev.com/ghpvc/?username=gaxrai)
+    <a href="http://ganeshrai.com">My portfolio!</a>
+</p>
 
 <!--
 **gaxrai/gaxrai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
