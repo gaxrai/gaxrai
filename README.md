@@ -2,7 +2,7 @@
 
 ![](https://komarev.com/ghpvc/?username=gaxrai)
 
-<p align="center">
+<p>
     <a href="http://ganeshrai.com/" target="_blank">My portfolio!</a>
 </p>
 
