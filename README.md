@@ -1,8 +1,8 @@
 <h2 align="center"> Namaste, fellow human! 🙏 </h2>
 
 <p align="center">
-    <a href="![](https://komarev.com/ghpvc/?username=gaxrai)"></a> •
-    <a href="http://ganeshrai.com">My portfolio!</a>
+    <a>![](https://komarev.com/ghpvc/?username=gaxrai)</a> •
+    <a href="http://ganeshrai.com" target="_blank">My portfolio!</a>
 </p>
 
 <!--
