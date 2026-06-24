@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="100%" stop-color="#070a13"/>
+    </linearGradient>
+
+    <!-- Node Glow Filters -->
+    <filter id="glow-blue" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-green" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-orange" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-purple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Gradients for Links -->
+    <linearGradient id="grad-blue-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="grad-purple-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="grad-green-orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+
+    <!-- Arrow Marker -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#6b7280"/>
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#3b82f6"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#a855f7"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#10b981"/>
+    </marker>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="900" height="320" rx="16" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Grid lines for engineering layout aesthetic -->
+  <g stroke="#ffffff" stroke-opacity="0.03" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="320"/>
+    <line x1="260" y1="0" x2="260" y2="320"/>
+    <line x1="440" y1="0" x2="440" y2="320"/>
+    <line x1="620" y1="0" x2="620" y2="320"/>
+    <line x1="780" y1="0" x2="780" y2="320"/>
+    <line x1="0" y1="80" x2="900" y2="80"/>
+    <line x1="0" y1="200" x2="900" y2="200"/>
+  </g>
+
+  <!-- Flow Links (Connections) -->
+  <!-- Ingress to Kafka -->
+  <path d="M 180 140 Q 220 140 250 140" fill="none" stroke="url(#grad-blue-purple)" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <path d="M 180 140 Q 220 180 250 195" fill="none" stroke="url(#grad-blue-purple)" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6"/>
+
+  <!-- Kafka to Spring Boot -->
+  <path d="M 350 140 Q 400 140 430 140" fill="none" stroke="url(#grad-blue-purple)" stroke-width="2.5" marker-end="url(#arrow-purple)"/>
+  
+  <!-- Spring Boot to Caffeine/Redis -->
+  <path d="M 550 120 Q 590 100 620 100" fill="none" stroke="url(#grad-purple-green)" stroke-width="2" marker-end="url(#arrow-purple)"/>
+  <path d="M 620 110 Q 590 125 550 135" fill="none" stroke="#10b981" stroke-width="1.5" marker-end="url(#arrow-green)"/>
+  
+  <!-- Spring Boot to PostgreSQL -->
+  <path d="M 550 160 Q 660 190 770 190" fill="none" stroke="url(#grad-purple-green)" stroke-width="2" marker-end="url(#arrow-purple)"/>
+  
+  <!-- Caffeine/Redis to PostgreSQL (Cache Miss / Sync) -->
+  <path d="M 700 120 Q 730 140 765 170" fill="none" stroke="url(#grad-green-orange)" stroke-width="1.5" stroke-dasharray="3 3" marker-end="url(#arrow-green)"/>
+
+  <!-- Observability Loops -->
+  <path d="M 490 100 L 490 55" fill="none" stroke="#6b7280" stroke-width="1" stroke-dasharray="2 2" marker-end="url(#arrow)"/>
+  <path d="M 300 100 L 300 55 H 430" fill="none" stroke="#6b7280" stroke-width="1" stroke-dasharray="2 2"/>
+
+  <!-- ================= NODES ================= -->
+
+  <!-- NODE 1: Ingress (IoT/Clients) -->
+  <g transform="translate(60, 95)" filter="url(#glow-blue)">
+    <rect width="120" height="90" rx="8" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="60" y="32" fill="#93c5fd" font-family="system-ui, sans-serif" font-weight="bold" font-size="12" text-anchor="middle">INGRESS FLOW</text>
+    <text x="60" y="52" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">10K+ Req/Daily</text>
+    <text x="60" y="68" fill="#64748b" font-family="monospace" font-size="9" text-anchor="middle">Clients / IoT</text>
+  </g>
+
+  <!-- NODE 2: Apache Kafka -->
+  <g transform="translate(260, 95)" filter="url(#glow-purple)">
+    <rect width="100" height="90" rx="8" fill="#0f172a" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="50" y="32" fill="#d8b4fe" font-family="system-ui, sans-serif" font-weight="bold" font-size="12" text-anchor="middle">KAFKA</text>
+    <text x="50" y="52" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Partition-Aware</text>
+    <text x="50" y="68" fill="#a855f7" font-family="monospace" font-weight="bold" font-size="9" text-anchor="middle">Event Broker</text>
+  </g>
+
+  <!-- NODE 3: Spring Boot App Engine -->
+  <g transform="translate(440, 95)" filter="url(#glow-purple)">
+    <rect width="120" height="90" rx="8" fill="#0f172a" stroke="#c084fc" stroke-width="2"/>
+    <text x="60" y="32" fill="#e9d5ff" font-family="system-ui, sans-serif" font-weight="bold" font-size="12" text-anchor="middle">SPRING BOOT</text>
+    <text x="60" y="52" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">JVM / Java 17</text>
+    <text x="60" y="68" fill="#34d399" font-family="monospace" font-weight="bold" font-size="9" text-anchor="middle">Throughput +40%</text>
+  </g>
+
+  <!-- NODE 4: Caching Layer (Caffeine + Redis) -->
+  <g transform="translate(620, 55)" filter="url(#glow-green)">
+    <rect width="110" height="75" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="1.5"/>
+    <text x="55" y="28" fill="#6ee7b7" font-family="system-ui, sans-serif" font-weight="bold" font-size="11" text-anchor="middle">CACHE LAYER</text>
+    <text x="55" y="46" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Caffeine &amp; Redis</text>
+    <text x="55" y="60" fill="#64748b" font-family="monospace" font-size="9" text-anchor="middle">DB Reads -60%</text>
+  </g>
+
+  <!-- NODE 5: PostgreSQL Database -->
+  <g transform="translate(770, 145)" filter="url(#glow-orange)">
+    <rect width="100" height="80" rx="8" fill="#0f172a" stroke="#f97316" stroke-width="1.5"/>
+    <text x="50" y="30" fill="#ffedd5" font-family="system-ui, sans-serif" font-weight="bold" font-size="12" text-anchor="middle">STORAGE</text>
+    <text x="50" y="48" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">PostgreSQL</text>
+    <text x="50" y="64" fill="#f97316" font-family="monospace" font-size="9" text-anchor="middle">Active Ledger</text>
+  </g>
+
+  <!-- TOP OBSERVED BLOCK: Monitoring / Telemetry -->
+  <g transform="translate(440, 15)">
+    <rect width="120" height="30" rx="4" fill="#1e293b" stroke="#4b5563" stroke-width="1"/>
+    <text x="60" y="19" fill="#9ca3af" font-family="monospace" font-weight="bold" font-size="10" text-anchor="middle">DATADOG APM</text>
+  </g>
+
+  <!-- Legend / Details Box -->
+  <g transform="translate(20, 260)">
+    <circle cx="10" cy="10" r="5" fill="#3b82f6"/>
+    <text x="22" y="14" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Ingress Pipeline</text>
+
+    <circle cx="150" cy="10" r="5" fill="#a855f7"/>
+    <text x="162" y="14" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Event Distribution</text>
+
+    <circle cx="300" cy="10" r="5" fill="#10b981"/>
+    <text x="312" y="14" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">In-Memory Cache (p99 &lt; 200ms)</text>
+
+    <circle cx="530" cy="10" r="5" fill="#f97316"/>
+    <text x="542" y="14" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Relational Database Core</text>
+  </g>
+</svg>
