@@ -104,17 +104,17 @@ quality_assurance:
 
 ### 🛠️ Featured Backend & Infrastructure Projects
 
-#### [Event-Driven Distributed Task Scheduler](https://github.com/gaxrai/my-portfolio)
+#### Event-Driven Distributed Task Scheduler
 *High-throughput, fault-tolerant distributed dispatch engine processing high-frequency scheduling tasks.*
 *   Implemented partition-aware Apache Kafka queues and distributed locking with **Redisson/Redis** to guarantee strictly ordered, double-execution-free task dispatching.
 *   *Stack:* `Java`, `Spring Boot`, `Apache Kafka`, `Redis`, `Docker`, `GCP`
 
-#### [Real-Time Device Telemetry Aggregator](https://github.com/gaxrai/my-portfolio)
+#### Real-Time Device Telemetry Aggregator
 *High-performance ingestion pipeline processing logs and router diagnostics for 1M+ active network endpoints.*
 *   Architected a dual-level cache (**Caffeine** local + **Redis** remote) that dropped DB read traffic by **60%** and enabled automated self-healing triggers.
 *   *Stack:* `Java`, `Spring Boot`, `Apache Kafka`, `PostgreSQL`, `Caffeine`, `Azure`
 
-#### [High-Throughput Log Pipeline Buffer](https://github.com/gaxrai/my-portfolio)
+#### High-Throughput Log Pipeline Buffer
 *Ingestion buffer throttling sudden telemetry log spikes to guard databases against thread-starvation.*
 *   Engineered rate-limiting buffers using **Redis Streams** and thread-pooled batch writers, cutting database write overhead by **40%**.
 *   *Stack:* `Java`, `Spring Boot`, `Redis Streams`, `Docker`, `Kubernetes`, `GCP`
