@@ -95,11 +95,6 @@ infrastructure:
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=gaxrai&theme=tokyonight&hide_border=true&background=0a0f1d&ring=3b82f6&fire=f97316&currStreakLabel=a855f7" alt="GitHub Streak" width="100%">
     </td>
   </tr>
-  <tr>
-    <td align="center" colspan="2" style="padding-top: 10px;">
-      <img src="https://github-profile-trophy.vercel.app/?username=gaxrai&theme=onedark&no-bg=true&no-frame=true&margin-w=4" alt="GitHub Trophies" width="100%">
-    </td>
-  </tr>
 </table>
 
 ---
