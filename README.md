@@ -1,11 +1,14 @@
-<h2 align="center"> 𝙷𝙴𝙻𝙻𝙾, 𝙸'𝙼 𝙶𝙰𝙽𝙴𝚂𝙷 𝚁𝙰𝙸! </h2>
 <p align="center">
-  <b>Backend &amp; Distributed Systems Engineer</b> | <b>Product Builder</b> | <b>Technical Storyteller</b>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=A855F7&center=true&vCenter=true&width=700&lines=HELLO+WORLD%2C+I'M+GAXRAI;BACKEND+%26+DISTRIBUTED+SYSTEMS;BUILDING+HIGH-SCALE+ARCHITECTURE;OPTIMIZING+JVM+%26+EVENT-STREAMS" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <b>High-Throughput Microservices</b> | <b>Platform Resiliency</b> | <b>Technical Performance Architect</b>
 </p>
 
 <p align="center">
   <a href="https://github.com/gaxrai">
-    <img src="https://komarev.com/ghpvc/?username=gaxrai&color=blueviolet&style=flat-square" alt="Visitor Count">
+    <img src="https://komarev.com/ghpvc/?username=gaxrai&color=blueviolet&style=flat-square" alt="System Inbound Traffic">
   </a>
 </p>
 
@@ -13,33 +16,33 @@
 
 ### 🖥️ CLI Status Control Panel
 ```bash
-$ npx gaxrai --status
+$ npx gaxrai --diagnostics
 ```
 ```yaml
-profile:
-  name: "Ganesh Rai"
-  role: "Software Engineer II @ Ultimate Kronos Group (UKG)"
-  location: "Noida, India"
+system_diagnostics:
+  identity: "gaxrai"
+  role: "Software Engineer II"
   specialization: "High-Throughput Microservices & Event-Driven Architecture"
-  uptime: "4+ Years Professional Shipping"
-  current_focus: ["JVM Performance Diagnostics", "Kafka Event Partitioning", "Enterprise API Scaling"]
+  uptime: "4+ Years Shipping Production Code"
+  network_location: "Distributed"
+  current_focus: ["JVM GC Diagnostics", "Kafka Event Partitioning", "Latency Hot-Path Refactoring"]
 ```
 
 ---
 
 ### 📊 System Performance & Scale Metrics
-*Key performance metrics and architectural outcomes delivered across production environments at UKG and Jio.*
+*Key performance metrics and architectural outcomes delivered across high-scale enterprise environments.*
 
 | 🚀 Scale & Throughput | ⚡ Latency & Performance | 🛡️ Resiliency & Recovery |
 | :--- | :--- | :--- |
 | **1M+** IoT Devices Monitored | **-35%** Peak-Hour System Latency | **99.999%** Distributed Lock Consistency |
 | **10k+** Daily Scheduling Ops | **-25%** p95 API Response Times | **-25%** Team Mean Time to Resolution |
-| **200+** Enterprise Data Assets | **-60%** DB Roundtrips (Caffeine) | **48 Hours** Production JVM Leak Resolved |
+| **200+** Enterprise Data Assets | **-60%** DB Roundtrips (Caffeine) | **48 Hours** Critical Outage Resolved |
 
 ---
 
 ### 🏗️ Production System Architecture
-*A visualization of a typical low-latency, event-driven pipeline I design, build, and optimize:*
+*A blueprint demonstrating event-driven orchestration, distributed caching, and real-time observability:*
 
 <p align="center">
   <img src="assets/architecture.svg" alt="Event-Driven Systems Blueprint" width="100%">
@@ -47,19 +50,18 @@ profile:
 
 ---
 
-### 🛠️ Developer Configuration (`profile.yaml`)
+### 🛠️ System Stack & Core Configuration
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,spring,postgres,redis,docker,kubernetes,gcp,azure,ts,react,nextjs,git,maven,github" alt="System Stack Icons" />
+  </a>
+</p>
+
 ```yaml
+# configuration.yaml
 identity:
-  languages: 
-    - "Java"
-    - "TypeScript"
-    - "SQL"
-  frameworks: 
-    - "Spring Boot"
-    - "Spring MVC"
-    - "Hibernate/JPA"
-    - "Next.js"
-    - "React"
+  languages: ["Java", "TypeScript", "SQL"]
+  frameworks: ["Spring Boot", "Spring MVC", "Hibernate/JPA", "Next.js", "React"]
 
 systems_engineering:
   event_driven: ["Apache Kafka", "Redis Streams"]
@@ -78,10 +80,26 @@ quality_assurance:
 
 ---
 
-### 💼 Career & Production Impacts
+### ⚙️ GitHub Account Diagnostics
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=gaxrai&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0f1d&title_color=3b82f6&text_color=94a3b8&icon_color=a855f7" alt="GitHub Stats" width="48%">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gaxrai&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0f1d&title_color=3b82f6&text_color=94a3b8" alt="Top Languages" width="48%">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gaxrai&theme=tokyonight&hide_border=true&background=0a0f1d&ring=3b82f6&fire=f97316&currStreakLabel=a855f7" alt="GitHub Streak" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=gaxrai&theme=onedark&no-bg=true&no-frame=true&margin-w=4" alt="GitHub Trophies" width="100%">
+</p>
+
+---
+
+### 💼 Technical Journeys & Operational Impacts
 
 <details open>
-  <summary><b>Software Engineer II @ Ultimate Kronos Group (UKG)</b> <i>(04/2025 - Present)</i></summary>
+  <summary><b>Software Engineer II @ Enterprise Workforce Cloud Platform</b> <i>(04/2025 - Present)</i></summary>
   <br>
   
   *   **Kafka Event-Driven Migrations**: Re-architected a legacy CPU-intensive scheduling system to partition-aware event streams with Apache Kafka on GCP. Reduced peak-hour response times by **35%** across 10k+ daily enterprise requests.
@@ -92,7 +110,7 @@ quality_assurance:
 </details>
 
 <details>
-  <summary><b>Software Engineer @ Jio Platforms Limited</b> <i>(07/2022 - 03/2025)</i></summary>
+  <summary><b>Software Engineer @ High-Scale Digital Services Provider</b> <i>(07/2022 - 03/2025)</i></summary>
   <br>
   
   *   **IoT Router Telemetry Pipeline**: Built telemetry processing features cataloging diagnostic heartbeats and logs for **1M+** active routers on Azure. Automated diagnostics lowered physical on-site field visits by **25%** and slashed repair costs by **20%**.
@@ -102,7 +120,7 @@ quality_assurance:
 
 ---
 
-### 🛠️ Featured Backend & Infrastructure Projects
+### 🛠️ Core Engineering Blueprints
 
 #### Event-Driven Distributed Task Scheduler
 *High-throughput, fault-tolerant distributed dispatch engine processing high-frequency scheduling tasks.*
@@ -121,22 +139,18 @@ quality_assurance:
 
 ---
 
-### 🕹️ Terminal Status Bar / Call to Action
+### 🕹️ Terminal Status Bar / Interactive Ports
 
 ```
-[F1: Email] ➔ ganeshrai.work@gmail.com
-[F2: LinkedIn] ➔ /in/ganesh-rai
-[F3: Portfolio] ➔ ganeshrai.com
+[F1: GitHub]    ➔ github.com/gaxrai
+[F2: Portfolio] ➔ ganeshrai.com
 ```
 
 <p align="left">
-  <a href="mailto:ganeshrai.work@gmail.com">
-    <img src="https://img.shields.io/badge/F1--Email-ganeshrai.work%40gmail.com-blue?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Button">
-  </a>
-  <a href="https://linkedin.com/in/ganesh-rai" target="_blank">
-    <img src="https://img.shields.io/badge/F2--LinkedIn-Ganesh%20Rai-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Button">
+  <a href="https://github.com/gaxrai" target="_blank">
+    <img src="https://img.shields.io/badge/F1--GitHub-gaxrai-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Button">
   </a>
   <a href="http://ganeshrai.com/" target="_blank">
-    <img src="https://img.shields.io/badge/F3--Portfolio-ganeshrai.com-10b981?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Portfolio Button">
+    <img src="https://img.shields.io/badge/F2--Portfolio-Diagnostic%20Hub-10b981?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Portfolio Button">
   </a>
 </p>
