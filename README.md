@@ -1,18 +1,8 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&duration=3000&pause=1000&color=c084fc&center=true&vCenter=true&width=750&lines=CORE+SYSTEMS+ARCHITECT;EVENT-DRIVEN+MICROSERVICES;HIGH-THROUGHPUT+INGRESS;JVM+GC+PERFORMANCE+TUNING" alt="Typing SVG" />
+  <img src="assets/header.svg" alt="Ganesh Rai Core Dashboard" width="100%">
 </p>
 
-<p align="center">
-  <b>High-Throughput Microservices</b> | <b>Platform Resiliency</b> | <b>High-Concurrency Design</b>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=gaxrai&color=3b82f6&style=flat-square&label=SYSTEM+TRAFFIC+METRICS" alt="System Traffic">
-</p>
-
----
-
-### 🖥️ Main Engine Daemon
+### 🖥️ Main Engine Daemon Status
 ```bash
 $ systemctl status gaxrai-core.service
 ```
@@ -35,18 +25,47 @@ $ systemctl status gaxrai-core.service
 [OK  ] Datadog observability APM instrumentation running in thread pool.
 ```
 
----
+<p align="center">
+  <img src="assets/status-bar.svg" alt="status separator" width="100%">
+</p>
 
 ### 📊 System Diagnostics & Scaling Telemetry
 *High-performance benchmarks achieved across enterprise event-driven pipelines:*
 
-| 🚀 Ingress Throughput | ⚡ Latency Refactoring | 🛡️ Partition Consensus |
-| :--- | :--- | :--- |
-| **1M+** Heartbeats Cataloged | **-35%** Peak-Hour System Latency | **99.999%** Thread-Lock Consistency |
-| **10k+** High-Freq Scheduler Ops | **-25%** p95 API Response Times | **-25%** Ingestion MTTR |
-| **200+** Database Nodes Cataloged | **-60%** Database Roundtrips | **48h** Critical Outage Recovery Rate |
+<table align="center" width="100%" border="0" cellpadding="8" cellspacing="4">
+  <tr bgcolor="#0d1527">
+    <th width="33%" align="left"><font color="#3b82f6" size="3" face="monospace">🚀 INGRESS FLOW</font></th>
+    <th width="33%" align="left"><font color="#c084fc" size="3" face="monospace">⚡ LATENCY REDUCTION</font></th>
+    <th width="33%" align="left"><font color="#10b981" size="3" face="monospace">🛡️ CONSENSUS &amp; RESILIENCY</font></th>
+  </tr>
+  <tr bgcolor="#070a13">
+    <td valign="top">
+      <font size="2" color="#cbd5e1" face="monospace">
+        • <b>1M+</b> Heartbeats Cataloged<br>
+        • <b>10k+</b> High-Freq Scheduler Ops<br>
+        • <b>200+</b> DB Nodes Cataloged
+      </font>
+    </td>
+    <td valign="top">
+      <font size="2" color="#cbd5e1" face="monospace">
+        • <b>-35%</b> Peak-Hour System Latency<br>
+        • <b>-25%</b> p95 API Response Times<br>
+        • <b>-60%</b> DB Roundtrips (Cached)
+      </font>
+    </td>
+    <td valign="top">
+      <font size="2" color="#cbd5e1" face="monospace">
+        • <b>99.999%</b> Thread-Lock Consistency<br>
+        • <b>-25%</b> Ingestion MTTR (Kafka)<br>
+        • <b>48h</b> Crit Outage Recovery Rate
+      </font>
+    </td>
+  </tr>
+</table>
 
----
+<p align="center">
+  <img src="assets/status-bar.svg" alt="status separator" width="100%">
+</p>
 
 ### 🏗️ Event-Driven Distributed Blueprint
 *A typical microservices data pipeline designed for high-concurrency, low-latency applications:*
@@ -55,14 +74,48 @@ $ systemctl status gaxrai-core.service
   <img src="assets/architecture.svg" alt="Distributed Architecture Blueprint" width="100%">
 </p>
 
----
+<p align="center">
+  <img src="assets/status-bar.svg" alt="status separator" width="100%">
+</p>
 
 ### 🛠️ Core Engineering Tool Deck
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,spring,postgres,redis,docker,kubernetes,gcp,azure,ts,react,nextjs,git,maven,github" alt="System Stack Icons" />
-  </a>
-</p>
+
+<table align="center" width="100%" border="0" cellpadding="8" cellspacing="4">
+  <tr bgcolor="#0d1527">
+    <th width="33%"><font color="#cbd5e1" face="monospace">💻 RUNTIMES &amp; SYSTEMS</font></th>
+    <th width="33%"><font color="#cbd5e1" face="monospace">🗄️ CACHING &amp; PERSISTENCE</font></th>
+    <th width="33%"><font color="#cbd5e1" face="monospace">☁️ ORCHESTRATION &amp; OPS</font></th>
+  </tr>
+  <tr bgcolor="#070a13">
+    <td align="center" valign="top">
+      <br>
+      <img src="https://skillicons.dev/icons?i=java,spring,ts,react,nextjs" alt="Runtimes" /><br><br>
+      <font size="2" color="#94a3b8" face="monospace">
+        Java 17/21 (ZGC Tuning)<br>
+        Spring Boot / Microservices<br>
+        TypeScript / Next.js
+      </font>
+    </td>
+    <td align="center" valign="top">
+      <br>
+      <img src="https://skillicons.dev/icons?i=postgres,mysql,redis" alt="Storage" /><br><br>
+      <font size="2" color="#94a3b8" face="monospace">
+        PostgreSQL / MySQL Ledger<br>
+        Redis Distributed Cache<br>
+        Caffeine L1 In-Memory
+      </font>
+    </td>
+    <td align="center" valign="top">
+      <br>
+      <img src="https://skillicons.dev/icons?i=docker,kubernetes,gcp,azure,git" alt="Orchestration" /><br><br>
+      <font size="2" color="#94a3b8" face="monospace">
+        Docker &amp; K8s Pods<br>
+        Google Cloud &amp; Azure<br>
+        Distributed Git Ops
+      </font>
+    </td>
+  </tr>
+</table>
 
 ```yaml
 # system_specification.yaml
@@ -78,39 +131,50 @@ infrastructure:
   orchestration: ["Docker", "Kubernetes", "Google Cloud Platform", "Azure"]
 ```
 
----
+<p align="center">
+  <img src="assets/status-bar.svg" alt="status separator" width="100%">
+</p>
 
 ### ⚙️ GitHub Control Panel Stats
-<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+<table align="center" border="0" cellpadding="0" cellspacing="4" width="100%">
   <tr>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=gaxrai&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0f1d&title_color=3b82f6&text_color=94a3b8&icon_color=a855f7" alt="GitHub Stats" width="100%">
+    <td align="center" width="50%" bgcolor="#070a13" style="border: 1px solid #1e293b; border-radius: 8px;">
+      <img src="https://github-readme-stats.vercel.app/api?username=gaxrai&show_icons=true&theme=dark&hide_border=true&bg_color=070a13&title_color=c084fc&text_color=94a3b8&icon_color=3b82f6" alt="GitHub Stats" width="100%">
     </td>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gaxrai&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0f1d&title_color=3b82f6&text_color=94a3b8" alt="Top Languages" width="100%">
+    <td align="center" width="50%" bgcolor="#070a13" style="border: 1px solid #1e293b; border-radius: 8px;">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gaxrai&layout=compact&theme=dark&hide_border=true&bg_color=070a13&title_color=c084fc&text_color=94a3b8" alt="Top Languages" width="100%">
     </td>
   </tr>
   <tr>
-    <td align="center" colspan="2" style="padding-top: 10px;">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=gaxrai&theme=tokyonight&hide_border=true&background=0a0f1d&ring=3b82f6&fire=f97316&currStreakLabel=a855f7" alt="GitHub Streak" width="100%">
+    <td align="center" colspan="2" style="padding-top: 5px;">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=gaxrai&theme=dark&hide_border=true&background=070a13&ring=c084fc&fire=10b981&currStreakLabel=3b82f6&currStreakVal=cbd5e1&sideNums=94a3b8&sideLabels=94a3b8&dates=64748b" alt="GitHub Streak" width="100%">
     </td>
   </tr>
 </table>
 
----
+<p align="center">
+  <img src="assets/status-bar.svg" alt="status separator" width="100%">
+</p>
 
 ### 📥 System Ports / Output Channels
 
-```
-[F1: GitHub]    ➔ github.com/gaxrai
-[F2: Portfolio] ➔ ganeshrai.com
-```
-
-<p align="left">
-  <a href="https://github.com/gaxrai" target="_blank">
-    <img src="https://img.shields.io/badge/F1--GitHub-gaxrai-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Button">
-  </a>
-  <a href="http://ganeshrai.com/" target="_blank">
-    <img src="https://img.shields.io/badge/F2--Portfolio-Diagnostic%20Hub-10b981?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Portfolio Button">
-  </a>
-</p>
+<table align="center" width="100%" border="0" cellpadding="8" cellspacing="4">
+  <tr bgcolor="#0d1527">
+    <th colspan="2" align="left"><font color="#cbd5e1" face="monospace">📥 SYSTEM OUTPUTS / COMMUNICATION PORTS</font></th>
+  </tr>
+  <tr bgcolor="#070a13">
+    <td width="50%" align="center">
+      <a href="https://github.com/gaxrai" target="_blank" style="text-decoration: none;">
+        <font color="#3b82f6" size="3" face="monospace"><b>[ PORT 443: GITHUB ]</b></font><br>
+        <font color="#94a3b8" size="1" face="monospace">github.com/gaxrai</font>
+      </a>
+    </td>
+    <td width="50%" align="center">
+      <a href="http://ganeshrai.com/" target="_blank" style="text-decoration: none;">
+        <font color="#10b981" size="3" face="monospace"><b>[ PORT 80: PORTFOLIO ]</b></font><br>
+        <font color="#94a3b8" size="1" face="monospace">ganeshrai.com</font>
+      </a>
+    </td>
+  </tr>
+</table>
