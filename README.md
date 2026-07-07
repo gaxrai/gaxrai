@@ -113,27 +113,7 @@
   <img src="assets/status-bar.svg" alt="divider" width="100%">
 </p>
 
-### 📈 Contribution & System Telemetry
 
-<table align="center" border="0" cellpadding="0" cellspacing="6" width="100%">
-  <tr>
-    <td align="center" width="50%" bgcolor="#09090b" style="border: 1px solid #27272a; border-radius: 12px;">
-      <img src="https://github-stats-extended.vercel.app/api?username=gaxrai&show_icons=true&theme=dark&hide_border=true&bg_color=09090b&title_color=6366f1&text_color=a1a1aa&icon_color=38bdf8" alt="GitHub Stats" width="100%">
-    </td>
-    <td align="center" width="50%" bgcolor="#09090b" style="border: 1px solid #27272a; border-radius: 12px;">
-      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=gaxrai&layout=compact&theme=dark&hide_border=true&bg_color=09090b&title_color=6366f1&text_color=a1a1aa" alt="Top Languages" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2" style="padding-top: 10px;">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=gaxrai&theme=dark&hide_border=true&background=09090b&ring=6366f1&fire=10b981&currStreakLabel=38bdf8&currStreakVal=f4f4f5&sideNums=a1a1aa&sideLabels=a1a1aa&dates=71717a" alt="GitHub Streak" width="100%">
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <img src="assets/status-bar.svg" alt="divider" width="100%">
-</p>
 
 ### 📥 Connection Channels & Ports
 
