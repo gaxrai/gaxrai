@@ -1,21 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 24" width="100%" height="100%">
-  <!-- Background -->
-  <rect width="850" height="24" fill="#070a13" rx="4" />
-  
-  <!-- Left Status Text -->
-  <text x="12" y="16" fill="#c084fc" font-family="monospace" font-weight="bold" font-size="10">SYS.LOG_ACTIVE</text>
-  
-  <!-- Divider Line -->
-  <line x1="120" y1="12" x2="710" y2="12" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4" />
-  
-  <!-- Progress Indicators -->
-  <g transform="translate(720, 7)">
-    <rect x="0" y="2" width="6" height="6" fill="#3b82f6" />
-    <rect x="10" y="2" width="6" height="6" fill="#c084fc" />
-    <rect x="20" y="2" width="6" height="6" fill="#10b981" />
-    <rect x="30" y="2" width="6" height="6" fill="#f97316" />
-  </g>
-  
-  <!-- Right Coordinates / Uptime Info -->
-  <text x="770" y="16" fill="#64748b" font-family="monospace" font-size="9" font-weight="bold" text-anchor="start">LATENCY_OK: 99.9%</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 8" width="100%" height="100%">
+  <defs>
+    <linearGradient id="divider-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#38bdf8" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.8"/>
+      <stop offset="80%" stop-color="#6366f1" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Thin gradient divider line -->
+  <rect y="3" width="850" height="1.5" fill="url(#divider-grad)" />
 </svg>
